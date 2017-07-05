@@ -1,0 +1,55 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+.center{
+	width:700px;
+	border:1px solid #333;
+	margin:0px auto;
+}
+.center .in_area{
+	width:600px;
+	height:200px;
+	border:1px solid red;
+	margin:0px auto;
+	margin-top:50px;
+	position:relative;
+}
+.center .in_area textarea{
+	resize:none;
+	width:600px;
+	height:150px;
+	max-width:600px;
+	max-height:150px;
+	bolder:2px solid gray;
+	position:relative;
+}
+.center .in_area .sendBt{
+	width:70px;
+	height:25px;
+	border:2px solid blue;
+	border-radius:2px;
+	color:yellow;
+	margin-top:10px;
+	position:relative;
+}
+.center .msgArea{
+	width:700px;
+	height:80%;
+	border:1px solid red;
+	position:relative;
+}
+
+.center .msgArea .contentTxt{
+	width:600px;
+	height:100px;
+	margin:0px auto;
+	border:1px solid black;
+	margin-top:40px;
+	
+
+}
+.center .msgArea .contentTxt p{
+	margin:10px 0px 0px 10px;
+
+}
