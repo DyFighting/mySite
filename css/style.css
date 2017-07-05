@@ -1,0 +1,77 @@
+*{
+	margin:0px;
+	padding:0px;
+
+}
+ .loginBox .inpBox, .loginBox .btBox{
+	width:335px;
+	float:left;
+	margin: 30px 0px 0px 25px;
+	
+	
+}
+.loginBox{
+//position:absolute;
+	width:385px;
+	height:480px;
+	border:1px solid red;
+	float:right;
+	margin-right:200px;
+	margin-top:100px;
+	border-radius:5px;
+	box-shadow:2px;
+	
+}
+.loginBox .icoBox{
+	width:100px;
+	height:100px;
+	border-color:yellow;
+	margin-top:20px;
+	margin-left:142px;
+	position:relative;
+}
+.loginBox .icoBox .ico{
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	background-color:yellow;
+	position:relative;
+}
+.loginBox .inpBox{
+	height:120px;
+	border:1px solid blue;
+	position:relative;
+	
+}
+.loginBox .btBox{
+	margin-top:20px;
+	height:150px;
+	border:1px solid green;
+	position:relative;
+}
+.loginBox .inpBox input{
+	width:300px;
+	height:40px;
+	margin-top:13px;
+	margin-left:18px;
+	border-radius:5px;
+	border:1px;
+	border-bottom-style:none;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+
+}
+.loginBox .btBox .loginBt{
+	//display:none;
+	width:180px;
+	height:30px;
+	background-color:blue;
+	border-radius:5px;
+	color:white;
+	margin-left:78px;
+	margin-top:30px;
+	
+
+}
+

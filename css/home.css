@@ -1,0 +1,45 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.dh{
+	width:564px;
+	height:52px;
+	border:2px solid gray;
+	border-radius:3px;
+	
+	margin:100px auto; 
+	//position:absolute;
+
+}
+.dh ul{
+	list-style-type:none;
+	float:left;
+	//position:relative;
+	//margin-top:15px;
+	
+
+}
+.dh ul li{
+	display:block;
+	float:left;
+	//margin-left:20px;
+	position:relative;
+
+}
+.dh ul  a{
+	display:block;
+	color:orange;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	text-decoration:none;
+}
+#a,#b,#c,#d{
+	width:139px;
+	height:50;
+	background-color:#222;
+	border:1px solid white;
+	
+}
+
