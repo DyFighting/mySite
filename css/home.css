@@ -1,11 +1,11 @@
-*{
+﻿*{
 	margin:0px;
 	padding:0px;
 }
 .dh{
-	width:564px;
+	width:700px;
 	height:52px;
-	border:2px solid gray;
+	//border:2px solid gray;
 	border-radius:3px;
 	
 	margin:100px auto; 
@@ -23,9 +23,12 @@
 .dh ul li{
 	display:block;
 	float:left;
-	//margin-left:20px;
+	margin-left:20px;
 	position:relative;
-
+	border-radius:20px;
+	width:139px;
+	height:50;
+	background-color:#222;
 }
 .dh ul  a{
 	display:block;
@@ -34,17 +37,23 @@
 	text-align:center;
 	line-height:50px;
 	text-decoration:none;
+	border-radius:20px;
+    box-shadow:5px  5px 30px #888;
 }
 .dh ul a:hover{
 	background-color:blue;
 	color:white;
+	font-weight:bold;
 
 }
+
+/*
 #a,#b,#c,#d{
 	width:139px;
 	height:50;
 	background-color:#222;
-	border:1px solid white;
+	//border:1px solid white;
+	
 	
 }
-
+*/

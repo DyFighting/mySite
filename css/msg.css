@@ -21,7 +21,7 @@
 	height:150px;
 	max-width:600px;
 	max-height:150px;
-	bolder:2px solid gray;
+	border:2px solid gray;
 	position:relative;
 }
 .center .in_area .sendBt{
@@ -52,4 +52,28 @@
 .center .msgArea .contentTxt p{
 	margin:10px 0px 0px 10px;
 
+}
+.center .page{
+	width:700px;
+	height:20px;
+	margin-top:10px;
+	
+}
+.center .page ul{
+	list-style-type:none;
+	display:block;
+	
+}
+.center .page ul li {
+	display:block;
+	border:1px solid red;
+	float:left;
+	width:20px;
+	height:20px;
+	margin-left:5px;
+	text-align:center;
+}
+.center .page ul a{
+	text-decoration:none;
+	
 }

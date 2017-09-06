@@ -1,0 +1,64 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+.regBox{
+	width:500px;
+	height:800px;
+	left:200px;
+	border:2px solid red;
+	position:absolute; 
+	margin-top:100px;
+	
+}
+.regBox .inputBox{
+	width:400px;
+	height:300px;
+	margin-top:20px;
+	position:relative;
+	left:50px;
+	
+}
+.regBox input{
+	width:300px;
+	height:40px;
+	margin-top:20px;
+	margin-left:18px;
+	border-radius:5px;
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	position:relative;
+}
+.regBox input:focus{	
+	border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.regBox button{
+	width:180px;
+	height:30px;
+	background-color:blue;
+	border-radius:5px;
+	color:white;
+	left:120px;
+	margin-top:30px;
+	font-size:20px;
+	position:relative;
+	
+}
+.regBox .inputBox .error{
+	color:red;
+	font-size:12px;
+	font-family:微软雅黑;
+	position:absolute;
+	left:20px;
+	
+}
