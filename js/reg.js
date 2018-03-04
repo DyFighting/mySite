@@ -1,12 +1,12 @@
-﻿$(function (){
+﻿
+
+$(function (){
 	$(".name").blur(function (){
 		
 		if( $(this).val()=="")
 			$("#nameMsg").text("请输入用户名！");
 		else if($(this).val().length>0 )
-			$("#nameMsg").text("");	
-		
-		
+			$("#nameMsg").text("");				
 	});
 	
 	$(".pwd").blur(function(){
@@ -32,8 +32,7 @@
 		if(!(reg.test(mail)))
 			$("#emlMsg").text("请输入正确邮箱地址");
 		else
-			$("#emlMsg").text("");
-		
+			$("#emlMsg").text("");		
 	});
 	$(".tel").blur(function(){
 		var tel=$(this).val();
@@ -43,8 +42,23 @@
 		else if(!(reg.test(tel)))
 			$("#telMsg").text("手机号码输入有误，请重新输入！");
 		else
-			$("#telMsg").text("");
-		
+			$("#telMsg").text("");		
 	});
 	
+	$(".regBtn").click(function(){
+		
+		var pwd= hex_md5($(".pwd").val());
+		var param={"uname":$(".name").val(),"pwd":pwd,"email":$(".email").val(),"tel":$(".tel").val()}
+		
+		$.ajax({
+			type:"POST",
+			url:"reg.php",
+			dataType:"json",
+			data:param,
+			success:function(){
+				alert("请求成功！！");
+			}
+		});
+		
+	});
 });

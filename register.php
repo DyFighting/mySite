@@ -3,6 +3,7 @@
 <title>注册</title>
 <link rel="stylesheet"  type="text/css" href="./css/reg.css"/>
 <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./js/md5.js"></script>
 <script type="text/javascript" src="./js/reg.js"></script>
 </head>
 
@@ -10,7 +11,7 @@
 
 
 <div class="regBox">
-<form  action="POST">
+<form >
 	<div class="inputBox">
 	
 		<input type="text" name="uname" class="name" placeholder="请设置用户名"></input><br>
@@ -24,7 +25,7 @@
 		<input type="text" name="tel" class="tel" placeholder="请输入手机号"></input><br>
 		<span class="error" id="telMsg"></span>
 	</div>
-	<button type="submit" >注册</button>
+	<button type="button" class="regBtn" >注册</button>
 </form>
 </div>
 
